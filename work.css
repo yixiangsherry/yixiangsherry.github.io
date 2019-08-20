@@ -1,0 +1,180 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  float: left;
+/*  cursor: url('cursor.png'), auto;*/
+  color: transparent;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  position: relative;
+  letter-spacing: .01rem;
+}
+
+a {
+  color: #aeaeae;
+}
+
+a:hover {
+/*  cursor: url('cursor-hover.png'), auto;*/
+  color: #9832ff;
+  text-decoration: none;
+}
+
+:active {
+/*  cursor: url('cursor-onclick.png'), auto;*/
+}
+
+a:active {
+/*  cursor: url('cursor-onclick.png'), auto;*/
+}
+
+#intro p {
+  font-family: 'Roboto-Regular', sans-serif;
+  letter-spacing: .025rem;
+}
+
+p {
+  color:  #6A6B6F;
+  font-size: 1rem;
+}
+
+ .purpletext{color: #8C45F6;}
+
+ .orangetext{color: #EE6F56;}
+
+ .pinktext{color: #EB4B9E;}
+
+ .redtext{color: #EB4960;}
+
+.no-1 {
+  margin: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.no-2 {
+  margin: 1.5rem;
+  margin-top: 0;
+}
+
+.social {
+  position: absolute;
+  right: 1.5rem;
+}
+
+#home-sig-container {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+#home-sig-container a img {
+  height: 3rem;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+#nav-links {
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#heading {
+  display: inline-flex;
+  margin-bottom: 1rem;
+/*  width: auto;*/
+}
+
+#heading2 {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  width: auto;
+}
+
+#heading2 h1 {
+  font-size: 3.6rem;
+  color: #9832ff ;
+  overflow: hidden;
+  border-right: .3rem solid transparent;
+  white-space: nowrap;
+  animation:
+  typing 3s steps(30, end),
+  blink-caret .5s step-end 9;
+}
+
+#heading2 h2{
+  font-size: 3.6rem;
+  color: #9832ff ;
+}
+
+
+.description h1 {
+  color: #636363;
+  font-size: 2rem;
+}
+
+.description h1:hover {
+  color:  #ff32d1;
+}
+
+.description h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #aeaeae;
+  font-size: 1rem;
+}
+
+.description p {
+  margin-top: 2rem;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-style: normal;
+  letter-spacing: .025rem;
+}
+
+.work-gallery {
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  margin-bottom: 5rem;
+}
+
+.separator {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.2), 0 6px 35px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (min-width: 768px) {
+  .no-2 {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .work-gallery {
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% };
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color:  #3C7EEF }
+  50% { border-color: transparent }
+}
+
